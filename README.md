@@ -1,22 +1,21 @@
 # SKYMUSIC Employee Management System
 
 ## Overview
-The **SKYMUSIC Employee Management System** is a comprehensive web application designed for efficient employee data management. This system helps in managing employee records, tracking their performance, and monitoring departmental activities. Built using .NET ASP for the backend, and HTML, CSS for the frontend, this system provides a secure, user-friendly interface for businesses to manage employee details with real-time data updates.
+The **SKYMUSIC Employee Management System** is a simple web application designed to manage employee records. This system allows administrators to perform CRUD (Create, Read, Update, Delete) operations on employee data, such as names, roles, departments, and contact information. It is built using ASP.NET Core MVC for the backend and HTML/CSS for the frontend, providing a user-friendly interface for easy employee management.
 
 ### Key Features:
-- Employee Registration and Profile Management
-- Employee Role and Department Assignment
-- Real-time data management and updates
-- Secure access controls for employee information
-- User-friendly interface with easy navigation
-- Detailed employee records (Contact info, Address, Joining date, etc.)
-- CRUD (Create, Read, Update, Delete) operations for employee records
+- **Create**: Add new employee details to the system.
+- **Read**: View and search employee records.
+- **Update**: Edit existing employee information.
+- **Delete**: Remove employee records from the system.
+- User-friendly interface for smooth interaction.
+- Manage employee details including roles, departments, and contact information.
 
 ## Technologies Used:
-- **Backend**: ASP.NET MVC
+- **Backend**: ASP.NET Core MVC
 - **Frontend**: HTML, CSS
-- **Database**: SQL Server (or any database of choice)
-- **Authentication**: ASP.NET Identity (if implemented)
+- **Database**: SQL Server
+- **Authentication**: ASP.NET Identity (optional)
 - **Version Control**: Git
 
 ## Installation
@@ -26,20 +25,20 @@ The **SKYMUSIC Employee Management System** is a comprehensive web application d
 - Visual Studio or Visual Studio Code
 - SQL Server (or any relational database)
 
-### Steps to run the application:
+### Steps to Run the Application:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/akashd02/skymusic-employee-management.git
+    git clone https://github.com/Akash-D7/Employee-Management-System-CRUD.git
     ```
 
 2. **Navigate to the project directory**:
     ```bash
-    cd skymusic-employee-management
+    cd Employee-Management-System-CRUD
     ```
 
 3. **Restore dependencies**:
-    In the terminal, run:
+    Run the following command in the terminal:
     ```bash
     dotnet restore
     ```
@@ -49,38 +48,40 @@ The **SKYMUSIC Employee Management System** is a comprehensive web application d
     dotnet build
     ```
 
-5. **Run the application**:
+5. **Set up the database**:
+    - Ensure SQL Server is installed and running.
+    - Update the `appsettings.json` file with the correct connection string for your SQL Server database.
+
+6. **Run the application**:
     ```bash
     dotnet run
     ```
 
-6. Open a web browser and navigate to `http://localhost:5000` to access the system.
+7. Open a web browser and go to `http://localhost:5000` to access the **SKYMUSIC Employee Management System**.
 
-## Features:
+## Features
 
 ### Employee Dashboard:
-- View all employee details, including ID, Name, Contact info, Address, Department, etc.
-- Edit employee information such as Name, Contact info, Department, Role, etc.
-- View employee details in a separate page.
+- View all employee records with details such as ID, Name, Department, and Role.
+- Edit or update employee information.
+- Delete an employee record.
+- Search employee records by name or other parameters.
 
 ### CRUD Operations:
-- **Create New**: Add a new employee with all necessary details.
-- **Edit**: Modify existing employee records.
-- **Delete**: Remove an employee record.
-- **View Details**: View individual employee information in a dedicated view.
+- **Create**: Add new employee details with essential information.
+- **Read**: View a list of all employees or individual employee details.
+- **Update**: Edit employee information and update records.
+- **Delete**: Remove employee records from the system.
 
-### Responsive Interface:
-The application is responsive and optimized for both desktop and mobile views.
+### Responsive Design:
+The system is optimized for both desktop and mobile views.
 
 ## Contribution:
-Feel free to fork and contribute to this project. If you find any bugs or would like to improve the functionality, open an issue or pull request.
+Feel free to fork and contribute to this project. If you find any bugs or have suggestions, feel free to open an issue or submit a pull request.
 
 ## License:
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Developed By:
-**Akash D**
-
+**Akash D**  
 - [LinkedIn](https://www.linkedin.com/in/akashd02/)
-
-
